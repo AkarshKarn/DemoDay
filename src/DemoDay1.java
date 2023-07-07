@@ -115,7 +115,7 @@ public class DemoDay1 {
         char ci = 'w';
         char cj = 'z';
 
-        System.out.println("The following are the values of different char variables :" + "\n");
+        System.out.println("The following are the values of different char variables :");
         System.out.println(ca);
         System.out.println(cb);
         System.out.println(cc);
