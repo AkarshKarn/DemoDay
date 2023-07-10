@@ -32,7 +32,7 @@ public class Day7_Practice_Problems {
 
         */
 
-        /*  // 1.3) Write a program to check two strings are equal or not.
+        /* // 1.3) Write a program to check two strings are equal or not.
 
         String s1 = "Akarsh";
         String s2 = "Akarsh";
@@ -45,33 +45,36 @@ public class Day7_Practice_Problems {
 
         */
 
-       /*   //1.7) Write a LeapYear java program that takes a year as input and outputs the Year is a Leap Year or not a Leap Year.
+        //1.7) Write a LeapYear java program that takes a year as input and outputs the Year is a Leap Year or not a Leap Year.
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please provide your input");
+        System.out.println("Please provide your input as year");
 
         int user = sc.nextInt();
 
-        boolean leap = false;
 
-        if (user >= 1582) {
+            boolean leap;
 
-            if (user % 4 == 0 && user % 100 == 0 && user % 400 == 0) {
-                leap = true;
-            } else
-                leap = false;
-        }else {
-            System.out.println("Invalid Option");
+            if (user >= 1582) {
+
+                if (user % 4 == 0 && user % 100 == 0 && user % 400 == 0) {
+                    leap = true;
+                } else
+                    leap = false;
+
+                if (leap)
+                    System.out.println(user + " is a leap year.");
+                else
+                    System.out.println(user + " is not a leap year.");
+
+            } else {
+                System.out.println("Invalid Option, Please enter year after 1581");
+            }
+
+
         }
-
-        if (leap)
-            System.out.println(user + " is a leap year.");
-        else
-            System.out.println(user + " is not a leap year.");
-
-      */
     }
-}
+
 
 
 
