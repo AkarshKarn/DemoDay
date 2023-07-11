@@ -14,7 +14,7 @@ public class Day7_Practice_Problems {
         System.out.println("Following is the default value of all primitive data types of Java");
         System.out.println("\n");
 
-        int a = 12;
+        int a = 11;
         float b = 1.01f;
         double c = 32.26532;
         byte d = 2;
@@ -54,6 +54,8 @@ public class Day7_Practice_Problems {
 
 
             boolean leap;
+
+
 
             if (user >= 1582) {
 
