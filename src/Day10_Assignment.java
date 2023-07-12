@@ -1,8 +1,8 @@
 
 
-public class Day10_Assignment {
+//public class Day10_Assignment {
 
-      public static void main(String[] args) {
+  //    public static void main(String[] args) {
 
        /*   // Ques 1) 1) Java Program to print the elements of an array.
 
@@ -111,7 +111,7 @@ public class Day10_Assignment {
 
          //  Comment out the public class and Public Class and psvm
 
-          class EvenPosition {
+        /*  class EvenPosition {
               public static void main(String[] args) {
 
                   int[] arr = new int[]{1, 2, 3, 4, 5, 6};
@@ -125,9 +125,11 @@ public class Day10_Assignment {
               }
           }
 
+         */
 
 
-       /*   // Ques 6) Java Program to print the elements of an array in reverse order\
+
+       /*   // Ques 6) Java Program to print the elements of an array in reverse order
 
           int[] arr = new int[]{1, 2, 3, 4, 5};
           System.out.println("Original array: ");
@@ -160,13 +162,13 @@ public class Day10_Assignment {
         */
 
 
-        /*  // Ques 8) Java Program to print the duplicate elements of an array
+       /*  // Ques 8) Java Program to print the duplicate elements of an array
 
-          int[] arr = new int[]{1, 2, 3, 4, 2, 7, 8, 8, 3};
+          int[] arr = new int[]{1, 2, 3, 4, 2, 7, 8, 8, 3, 1};
           System.out.println("Duplicate elements in given array: ");
 
           for (int i = 0; i < arr.length; i++) {
-              for (int j = i + 1; j < arr.length; j++) {
+              for (int j = i +1 ; j < arr.length; j++) {
                   if (arr[i] == arr[j])
                       System.out.println(arr[j]);
               }
@@ -174,7 +176,9 @@ public class Day10_Assignment {
       }
   }
 
-         */
+        */
+
+
 
 
         /*  // Ques 9) Java Program to sort the elements of an array in ascending order
