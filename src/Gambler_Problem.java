@@ -14,8 +14,8 @@ public class Gambler_Problem {
             ar[i] = sc.nextInt();
         }
 
-        for (int i = 0; i < a - 1; i++) {
-            for (int j = i+1; j<a - 1; j++) {
+        for (int i = 0; i < ar.length - 1; i++) {
+            for (int j = i+1; j<ar.length - 1; j++) {
                 if (ar[j] > ar[j + 1]) {
                     int x = ar[j];
                     ar[j] = ar[j + 1];
