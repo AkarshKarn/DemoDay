@@ -15,8 +15,8 @@ public class Gambler_Problem {
         }
 
         for (int i = 0; i < a - 1; i++) {
-            for (int j = i+1; j<a -1; j++) {
-                if (ar[j] < ar[j + 1]) {
+            for (int j = i+1; j<a - 1; j++) {
+                if (ar[j] > ar[j + 1]) {
                     int x = ar[j];
                     ar[j] = ar[j + 1];
                     ar[j + 1] = x;
@@ -24,7 +24,7 @@ public class Gambler_Problem {
             }
         }
         System.out.println("Displaying the sorted array");
-        for (int i = 0; i < a; i++) {
+        for (int i = 0; i < ar.length; i++) {
             System.out.println(ar[i] + " ");
         }
 
