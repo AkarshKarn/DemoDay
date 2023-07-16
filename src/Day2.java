@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Day2 {
 public static void main(String[] args) {
   /*  int i=0;
@@ -18,7 +20,7 @@ public static void main(String[] args) {
 
    */
 
-    double[] myList = {1.9, 2.9, 3.4, 3.5};
+  /*  double[] myList = {1.9, 2.9, 3.4, 3.5};
 // Print all the array elements
     for (int i = 0; i < myList.length; i++) {
         System.out.println(myList[i] + " ");
@@ -51,7 +53,32 @@ public static void main(String[] args) {
         }
     }
 
+   */
 
+    int a = 7;
+    int[] num = new int[a];
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Display the elements of array");
+    for (int i=0; i<num.length;i++){
+        num[i] =sc.nextInt();
+    }
+
+    for (int i=0; i<a;i++){
+        for (int j= a+1; j<a; j++){
+            if (num[i]<num[j]){
+                int temp = num[i];
+                num[i]=num[j+1];
+                num[j]=temp;
+
+            }
+        }
+    }
+
+    System.out.println("Sorted array");
+    for (int i =0; i<num.length; i++){
+        System.out.println(num[i]);
+    }
 }
 }
 

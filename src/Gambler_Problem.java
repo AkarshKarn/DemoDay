@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Gambler_Problem {
     public static void main(String[] args) {
 
+
         Scanner sc = new Scanner(System.in);
         int a = 10;
         int ar[] = new int[a];
@@ -13,6 +14,7 @@ public class Gambler_Problem {
         for (int i = 0; i < a; i++) {
             ar[i] = sc.nextInt();
         }
+
 
         for (int i = 0; i < ar.length - 1; i++) {
             for (int j = i+1; j<ar.length - 1; j++) {
