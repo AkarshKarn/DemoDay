@@ -2,10 +2,12 @@
  // Assignment 15-7-23 "Write 10 classes and create 5 objects of each class, some parameterized some non parameterized and practice upcasting and down-casting"
 
 public class Assignment_15_07_23 {
-      public static void main(String[] args) {
+
+}
+    //  public static void main(String[] args) {
 
 
-     // Examples of Non-Parameterized Class :
+    // Examples of Non-Parameterized Class :
 
      /*  //Pen
 
@@ -32,6 +34,7 @@ public class Assignment_15_07_23 {
         System.out.println();
 
       */
+
 
 
      /*  //SoftDrinks
@@ -142,9 +145,7 @@ public class Assignment_15_07_23 {
        */
 
 
-      }
-
-}
+    //  }
 
 
     // Examples of Non-Parameterized Class :
@@ -165,6 +166,7 @@ public class Assignment_15_07_23 {
  }
 
       */
+
 
 
   /* // 2) SoftDrinks
@@ -241,7 +243,7 @@ public class Assignment_15_07_23 {
 
     // Examples of Paramaterized Class :
 
-    /* // 1)
+   /*  // 1)
             class Car{
             String name;
             String model;
@@ -261,6 +263,7 @@ public class Assignment_15_07_23 {
                 Car c3 = new Car("Honda", "ABC3", "Black", 100000);
                 Car c4 = new Car("Tesla", "ABC4", "Grey", 4000000);
                 Car c5 = new Car("Volkswagon", "ABC5", "Blue", 3000000);
+                System.out.println("List of different Car manufacturing companies:" + "\n");
                 System.out.println(c1);
                 System.out.println();
                 System.out.println(c2);
@@ -275,14 +278,16 @@ public class Assignment_15_07_23 {
 
 
             public String toString(){
-                System.out.println("List of different Car manufacturing companies:" + "\n");
+
                 return "Name : "+name + "\nModel : "+ model+ "\nColor : " + color+ "\nPrice : "+ price;
             }
 
 
         }
 
-  */
+    */
+
+
 
 
 
@@ -453,57 +458,64 @@ public class Assignment_15_07_23 {
     // Casting:
 
 
-  /*  public static void main(String[] args) {
+  //  public static void main(String[] args) {
 
-    // Up Casting :
+        // Up Casting :
 
-    /*  // 1)
+     /*   // 1)
 
         int x = 25;
         int y = 30;
 
         double z = x;
+        double v =y;
 
         System.out.println(z);
+        System.out.println(v);
+    }
+}
 
-     */
+      */
 
-     /*  // 2)
+
+     /*   // 2)
 
         int a = 11;
-        float b =11.11f;
+        float b = 11.11f;
 
         double c = a;
         double d = b;
 
         System.out.println(c);
         System.out.println(d);
+    }
+    }
 
       */
 
 
-      // Down Casting:
+     /*   // Down Casting:
 
-      /*  double p = 20.24687932;
+        double p = 20.24687932;
         float q = 3.01f;
         String m = "15364";
+        double l = 0.01111;
 
         int s = (int) p;
         int t = (int) q;
         int u = Integer.parseInt(m);
+        byte k = (byte) l;
+
 
         System.out.println(s);
         System.out.println(t);
         System.out.println(u);
 
-       */
-
- /*   }
-
-
+    }
 }
 
-  */
+      */
+
 
 
 
