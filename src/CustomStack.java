@@ -57,3 +57,15 @@ public class CustomStack {
         }
     }
 
+
+    // STACK :
+
+// A stack is a data structure which follows the principle of LIFO i.e the elements that is inserted last will get deleted first.
+// In Stack, there is only one pointer i.e Top Pointer and the execution is performed on the top end.
+// There are two functions i.e Push, Pop Display.
+//Push is used to insert the elements while Pop is used to delete the elements.
+
+
+
+
+
