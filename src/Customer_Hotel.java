@@ -52,23 +52,23 @@
 
     }
 
-        public void putCustomer1(Integer RoomNo, ArrayList r, HashMap<Integer, Customer1> ch){
+        public void putCustomer1(Integer RoomNo, ArrayList r, HashMap<Integer, Customer1> Booking){
         if (r.isEmpty()){
             System.out.println("Rooms are not available");
 
         }
         if (r.contains(RoomNo)){
-            ch.put(101, new Customer1("Ishan", 23, "Male", "Jharkhand", "0123456789"));
+           Booking.put(101, new Customer1("Ishan", 23, "Male", "Jharkhand", "0123456789"));
             r.remove(RoomNo);
 
-            ch.put(102, new Customer1( "Vikash", 24, "Male", "Mumbai", "0001236789"));
-            r.remove(RoomNo);
-
-            ch.put(103, new Customer1("Sam", 25, "Male", "Satna", "153469872663"));
-            r.remove(RoomNo);
-
-            ch.put(104, new Customer1( "Shivani", 25, "Female", "Chennai", "0123422789"));
-            r.remove(RoomNo);
+//            ch.put(102, new Customer1( "Vikash", 24, "Male", "Mumbai", "0001236789"));
+//            r.remove(RoomNo);
+//
+//            ch.put(103, new Customer1("Sam", 25, "Male", "Satna", "153469872663"));
+//            r.remove(RoomNo);
+//
+//            ch.put(104, new Customer1( "Shivani", 25, "Female", "Chennai", "0123422789"));
+//            r.remove(RoomNo);
 
            // ch.put(110, new Customer1( "Nisha", 21, "Female", "Delhi", "0023456789"));
           //  r.remove(RoomNo);

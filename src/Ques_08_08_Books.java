@@ -39,6 +39,11 @@ public class Ques_08_08_Books {
         cart.add(b1);
         cart.add(b2);
         cart.add(b3);
+        cart.add(b4);
+
+
+
+
 
 
 
@@ -47,11 +52,14 @@ public class Ques_08_08_Books {
 //        cart.put(02,b2);
 //        cart.put(03,b3);
 
-        System.out.println("The following books have been added to your cart");
+        System.out.println();
+
+        System.out.println("The following books have been added to your cart :");
         System.out.println(cart);
+        System.out.println();
 
         System.out.println("Your final cart value is");
-        System.out.println(" Total Price :" + (b1.Price+b2.Price+ b3.Price));
+        System.out.println(" Total Price: " + "Rs " +(b1.Price+b2.Price+ b3.Price+ b4.Price));
 
     }
 }

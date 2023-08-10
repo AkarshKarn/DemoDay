@@ -19,9 +19,9 @@ public class Lambda_Expression {
         LambdaDemoFunction f1 = (i)-> i+2;
         LambdaDemoFunction f3 = (i) -> i*50;
 
-        printValue(50000, f1);
+        printValue(20, f3);
 
-        System.out.println(f3);
+        System.out.println(f1);
 
     }
     public static void printValue(int a, LambdaDemoFunction f2){

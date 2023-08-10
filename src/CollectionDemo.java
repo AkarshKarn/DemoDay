@@ -45,7 +45,7 @@ public class CollectionDemo {
        // for(PersonCollectionDemo p : l1){
          //   System.out.println(p);
     //    }
-        //lamda expression for for-each
+        //lambda expression for for-each
      //   l1.forEach(p -> System.out.println(p));
      //   Stream s1 = l1.stream();
      //   s1.forEach(p -> System.out.println(p));
